@@ -39,6 +39,8 @@ input {
 .livro {
     display: block;
     background-color: aqua;
+    border-radius-top-left: 10px;
+    border-radius-top-right: 10px;
     margin: 0;
     padding: 0%;
     width: 40px;
