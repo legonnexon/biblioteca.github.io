@@ -6,7 +6,7 @@ document.getElementById('btn').onclick = function(e) {
   borda.innerHTML = " ";
   let number = document.getElementById('number').value;
   if (number > 100) { 
-    alert("Muito Grande");
+    alert("Muito Grande, maximo de 100.");
     window.location.reload();
   } 
   let i = 0;
