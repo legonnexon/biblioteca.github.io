@@ -5,6 +5,7 @@ let borda = document.getElementById("borda");
 document.getElementById('btn').onclick = function(e) {
   borda.innerHTML = " ";
   let number = document.getElementById('number').value;
+  if (number > 100) { alert("Muito Grande") return 1 } else { return 0 }
   let i = 0;
   numberBooks = 0; //Verifica quantos livros tem
   do {
